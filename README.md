@@ -34,7 +34,16 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-1.Define Inputs/Outputs: Inputs: J (Set), K (Reset), c1k (clock); Outputs: q, qbar (~q). 2.Initialization: Set q = 0 and qbar = 1 at the start of the simulation. 3.JK Flip-Flop Logic: On posedge c1k, compute q 4.Complementary Output: Update qbar = ~q to maintain complementarity. 5.Testbench: Simulate with combinations of J, K, and c1k to verify JK Flip-Flop functionality
+
+1.Define Inputs/Outputs: Inputs: J (Set), K (Reset), c1k (clock); Outputs: q, qbar (~q).
+
+2.Initialization: Set q = 0 and qbar = 1 at the start of the simulation.
+
+3.JK Flip-Flop Logic: On posedge c1k, compute q 
+
+4.Complementary Output: Update qbar = ~q to maintain complementarity.
+
+5.Testbench: Simulate with combinations of J, K, and c1k to verify JK Flip-Flop functionality
 
 **PROGRAM**
 ```
